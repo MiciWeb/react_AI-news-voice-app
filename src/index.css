@@ -5,8 +5,10 @@ body{
 *{
     box-sizing: border-box;
 }
-html{
-    /* background: url("images/back.png") no-repeat; */
+body{
+    background: url("images/back.png") no-repeat;
     background-size: cover;
-   
+    width: 100vw;
+    height: 100vh;
+    overflow-y: none;
 }
