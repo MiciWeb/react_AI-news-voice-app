@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, activeArticle, i }) => {
+const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage, author}, activeArticle, i }) => {
     return (
         <Card>
             <CardActionArea>
@@ -9,6 +9,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
                 <div>
                     <Typography variant="body2" color="textSecondary" component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
                     <Typography variant="body2" color="textSecondary" component="h2">{source.name}</Typography>
+                    <Typography variant="body2" color="textSecondary" component="h2">{author}</Typography>
                 </div>
                 <Typography gutterBottom variant="h5">{title}</Typography>
                 <CardContent>

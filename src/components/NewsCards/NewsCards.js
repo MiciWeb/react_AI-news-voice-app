@@ -6,7 +6,6 @@ import useStyles from "./styles.js"
 const NewsCards = ({ articles }) => {
     const names = ['James', 'Paul', 'John', 'George', 'Ringo', 'James', 'Paul', 'John', 'George', 'Ringo'];
     const classes = useStyles()
-    {console.log(articles)}
 
     return (
         <Grow in>
@@ -16,8 +15,6 @@ const NewsCards = ({ articles }) => {
                         <NewsCard article={article} i={i} />
                     </Grid>
                 ))}
-              
-
                 {/* {names.map(name => (
                     <li>
                         <Grid item xs={12} sm={6} md={4} lg={3} style={{ display: "flex" }}>
