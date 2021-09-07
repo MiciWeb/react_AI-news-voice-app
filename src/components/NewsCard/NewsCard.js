@@ -12,7 +12,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
                     <Typography variant="body2" color="textSecondary" component="h2">{source.name}</Typography>
                     <Typography variant="body2" color="textSecondary" component="h2">{author}</Typography>
                 </div>
-                <Typography gutterBottom variant="h5">{title}</Typography>
+                <Typography gutterBottom variant="h6">{title}</Typography>
                 <CardContent>
                     <Typography variant="body2" color="textSecondary" component="p">{description || "description not available"}</Typography>
                 </CardContent>

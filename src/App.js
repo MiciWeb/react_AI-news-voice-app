@@ -25,8 +25,6 @@ const App = () => {
     const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
     const currentArticles = api.slice(indexOfFirstArticle, indexOfLastArticle);
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber)
-
     const plus = (pageNumber) => {
         if (currentPage >= pageNumber.length) {
             return currentPage == pageNumber.length
@@ -34,7 +32,7 @@ const App = () => {
             setCurrentPage(currentPage + 1)
         }
     }
-    
+
     const less = () => {
         if (currentPage <= 1) {
             return currentPage == 1
@@ -42,11 +40,12 @@ const App = () => {
             setCurrentPage(currentPage - 1)
         }
     }
+
     return (
         <div>
             <h3>Alan AI News Application</h3>
             <NewsCards articles={currentArticles} />
-            <Pagination currentPage={currentPage} less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} paginate={paginate} />
+            <Pagination currentPage={currentPage} less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} />
         </div>
     )
 }
