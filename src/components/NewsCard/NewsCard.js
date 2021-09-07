@@ -8,7 +8,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
     return (
         <Card>
             <CardActionArea style={{ height: 470 }} href={url} target="_blank">
-                <CardMedia className={classes.media} style={{ height: 180 }} image={"https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png"} />
+                <CardMedia className={classes.media} style={{ height: 180 }} image={urlToImage || "https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png"} />
                 <div className={classes.details}>
                     <Typography variant="body2" color="textSecondary" >{(new Date(publishedAt)).toDateString()}</Typography>
                     <Typography variant="body2" color="textSecondary" >{source.name}</Typography>
@@ -20,7 +20,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
                 </CardContent>
             </CardActionArea>
             <CardActions className={classes.cardActions}>
-                <Button href={url} target="_blank" size="small" style={{ background: "#35baf6"}}>Learn More</Button>
+                <Button href={url} target="_blank" size="small" style={{ background: "#333333", color: "#d500f9"}}>Learn More</Button>
             </CardActions>
         </Card>
     )
