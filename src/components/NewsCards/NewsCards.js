@@ -4,7 +4,6 @@ import { Button, Grid, Grow, Typography } from "@material-ui/core"
 import useStyles from "./styles.js"
 
 const NewsCards = ({ articles }) => {
-    const names = ['James', 'Paul', 'John', 'George', 'Ringo', 'James', 'Paul', 'John', 'George', 'Ringo'];
     const classes = useStyles()
 
     return (

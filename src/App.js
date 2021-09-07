@@ -10,7 +10,7 @@ import Pagination from "./components/Pagination"
 
 const App = () => {
     const [newsArticles, setNewsArticles] = useState([])
-    const [currentPage, setCurrentPage] = useState(2)
+    const [currentPage, setCurrentPage] = useState(1)
     const [articlesPerPage, setArticlesPerPage] = useState(4)
 
     // useEffect(() => {
@@ -29,13 +29,28 @@ const App = () => {
     const currentArticles = api.slice(indexOfFirstArticle, indexOfLastArticle);
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber)
+
+    const plus = (pageNumber) => {
+        if (currentPage >= pageNumber.length) {
+            return currentPage == pageNumber.length
+        } else {
+            setCurrentPage(currentPage + 1)
+        }
+    }
     
+    const less = () => {
+        if (currentPage <= 1) {
+            return currentPage == 1
+        } else {
+            setCurrentPage(currentPage - 1)
+        }
+    }
     return (
         <div>
+            {currentPage}
             <h1>Alan AI News Application</h1>
-            {console.log(currentArticles)}
-            <Pagination articlesPerPage={articlesPerPage} totalArticles={api.length} paginate={paginate} />
             <NewsCards articles={currentArticles} />
+            <Pagination less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} paginate={paginate} />
         </div>
     )
 }
