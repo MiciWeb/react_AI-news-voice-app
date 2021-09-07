@@ -50,7 +50,7 @@ const App = () => {
             {currentPage}
             <h1>Alan AI News Application</h1>
             <NewsCards articles={currentArticles} />
-            <Pagination less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} paginate={paginate} />
+            <Pagination currentPage={currentPage} less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} paginate={paginate} />
         </div>
     )
 }

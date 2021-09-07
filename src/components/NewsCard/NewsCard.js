@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage, author}, activeArticle, i }) => {
+const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage, author}, activeArticle }) => {
     return (
         <Card>
             <CardActionArea>
@@ -18,7 +18,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">Learn More</Button>
-                <Typography variant="h5" color="textSecondary">{i + 1}</Typography>
+                {/* <Typography variant="h5" color="textSecondary">{i }</Typography> */}
             </CardActions>
         </Card>
     )
