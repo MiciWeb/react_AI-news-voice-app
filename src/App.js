@@ -43,7 +43,7 @@ const App = () => {
 
     return (
         <div>
-            <h3>Alan AI News Application</h3>
+            <h1>Alan AI News Application</h1>
             <NewsCards articles={currentArticles} />
             <Pagination currentPage={currentPage} less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} />
         </div>

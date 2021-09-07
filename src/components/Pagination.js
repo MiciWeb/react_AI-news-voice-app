@@ -10,7 +10,7 @@ const Pagination = ({ less, plus, articlesPerPage, totalArticles, currentPage })
     }
     const arrowStyle = {
         color: "#d500f9",
-        transform: "scale(1.7)"
+        transform: "scale(2.3)"
     };
     for (let i = 1; i <= Math.ceil(totalArticles / articlesPerPage); i++) {
         pageNumbers.push(i)
