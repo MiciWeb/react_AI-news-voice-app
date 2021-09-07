@@ -4,9 +4,6 @@ import NewsCards from "./components/NewsCards/NewsCards"
 import { Grid, Grow, Typography } from "@material-ui/core"
 import api from "./api.json"
 import Pagination from "./components/Pagination"
-// const alanKey = process.env.REACT_APP_ALAN_API_KEY
-//const newsKey = process.env.REACT_APP_NEWS_API_KEY
-
 
 const App = () => {
     const [newsArticles, setNewsArticles] = useState([])
@@ -47,8 +44,7 @@ const App = () => {
     }
     return (
         <div>
-            {currentPage}
-            <h1>Alan AI News Application</h1>
+            <h3>Alan AI News Application</h3>
             <NewsCards articles={currentArticles} />
             <Pagination currentPage={currentPage} less={less} plus={plus} articlesPerPage={articlesPerPage} totalArticles={api.length} paginate={paginate} />
         </div>
