@@ -1,13 +1,9 @@
 import React from 'react'
-import { Fab, Box, Button } from '@material-ui/core';
-import {BiLeftArrowCircle} from "react-icons/bi";
-import {BiRightArrowCircle} from "react-icons/bi";
+import { Button } from '@material-ui/core';
+import { BiLeftArrowCircle } from "react-icons/bi";
+import { BiRightArrowCircle } from "react-icons/bi";
 const Pagination = ({ less, plus, articlesPerPage, totalArticles, currentPage }) => {
     const pageNumbers = []
-    const hrefStyle = {
-        textDecoration: "none",
-        margin: "0 5px",
-    }
     const arrowStyle = {
         color: "#d500f9",
         transform: "scale(2.3)"

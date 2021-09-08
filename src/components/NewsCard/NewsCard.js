@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 import useStyles from "./styles.js"
 
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage, author }, activeArticle }) => {
+const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage } }) => {
     const classes = useStyles();
 
     return (
@@ -12,7 +12,6 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
                 <div className={classes.details}>
                     <Typography variant="body2" color="textSecondary" >{(new Date(publishedAt)).toDateString()}</Typography>
                     <Typography variant="body2" color="textSecondary" >{source.name}</Typography>
-                    {/* <Typography variant="body2" color="textSecondary" component="h2">{author}</Typography> */}
                 </div>
                 <Typography className={classes.title} gutterBottom variant="h6">{title}</Typography>
                 <CardContent>
@@ -20,7 +19,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
                 </CardContent>
             </CardActionArea>
             <CardActions className={classes.cardActions}>
-                <Button href={url} target="_blank" size="small" style={{ background: "#333333", color: "#d500f9"}}>Learn More</Button>
+                <Button href={url} target="_blank" size="small" style={{ background: "#333333", color: "#FAFAFA"}}>Learn More</Button>
             </CardActions>
         </Card>
     )
