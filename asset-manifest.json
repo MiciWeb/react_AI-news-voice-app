@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.db12c271.chunk.css",
-    "main.js": "/static/js/main.f8be75c1.chunk.js",
-    "main.js.map": "/static/js/main.f8be75c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.21e5714e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.21e5714e.js.map",
-    "static/js/2.cbf8578e.chunk.js": "/static/js/2.cbf8578e.chunk.js",
-    "static/js/2.cbf8578e.chunk.js.map": "/static/js/2.cbf8578e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.db12c271.chunk.css.map": "/static/css/main.db12c271.chunk.css.map",
-    "static/js/2.cbf8578e.chunk.js.LICENSE.txt": "/static/js/2.cbf8578e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/backPhone.fa7c166c.png"
+    "main.css": "/react_AI-news-voice-app/static/css/main.98107e77.chunk.css",
+    "main.js": "/react_AI-news-voice-app/static/js/main.f8be75c1.chunk.js",
+    "main.js.map": "/react_AI-news-voice-app/static/js/main.f8be75c1.chunk.js.map",
+    "runtime-main.js": "/react_AI-news-voice-app/static/js/runtime-main.4a146308.js",
+    "runtime-main.js.map": "/react_AI-news-voice-app/static/js/runtime-main.4a146308.js.map",
+    "static/js/2.cbf8578e.chunk.js": "/react_AI-news-voice-app/static/js/2.cbf8578e.chunk.js",
+    "static/js/2.cbf8578e.chunk.js.map": "/react_AI-news-voice-app/static/js/2.cbf8578e.chunk.js.map",
+    "index.html": "/react_AI-news-voice-app/index.html",
+    "static/css/main.98107e77.chunk.css.map": "/react_AI-news-voice-app/static/css/main.98107e77.chunk.css.map",
+    "static/js/2.cbf8578e.chunk.js.LICENSE.txt": "/react_AI-news-voice-app/static/js/2.cbf8578e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react_AI-news-voice-app/static/media/backPhone.fa7c166c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.21e5714e.js",
+    "static/js/runtime-main.4a146308.js",
     "static/js/2.cbf8578e.chunk.js",
-    "static/css/main.db12c271.chunk.css",
+    "static/css/main.98107e77.chunk.css",
     "static/js/main.f8be75c1.chunk.js"
   ]
 }
