@@ -1,6 +1,6 @@
-[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg](http://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/for-robots.svg](http://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](http://forthebadge.com)
 
 # Goal of the project
 The main goal of the project is to build an project which display news by using 2 api together.
