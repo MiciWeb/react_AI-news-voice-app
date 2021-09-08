@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "https://MiciWeb.github.io/react_AI-news-voice-app",
+    "homepage": "https://miciweb.github.io/react_AI-news-voice-app/",
     "@alan-ai/alan-sdk-web": "^1.8.28",
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
