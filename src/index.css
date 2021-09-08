@@ -6,9 +6,16 @@ body{
     box-sizing: border-box;
 }
 body{
-    background: url("images/back.png") no-repeat;
+    background: url("images/back.png");
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
     overflow-y: none;
+}
+@media screen and (max-width: 1300px) {
+    body{
+        background: url("images/backPhone.png");
+        background-repeat: repeat;
+    }
 }
