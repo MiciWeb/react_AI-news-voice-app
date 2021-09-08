@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '@material-ui/core';
+import { Box, Button } from '@material-ui/core';
 import { BiLeftArrowCircle } from "react-icons/bi";
 import { BiRightArrowCircle } from "react-icons/bi";
 const Pagination = ({ less, plus, articlesPerPage, totalArticles, currentPage }) => {
