@@ -15,8 +15,8 @@ The main goal of the project is to build an project which display news by using 
 * I made the design of the app with my favourite graphics editor [Figma](https://www.figma.com) which I used since october 2020, here is a [screen](https://raw.githubusercontent.com/MiciWeb/react_AI-news-voice-app/master/src/images/figmaScreen.png) of my mockup did with this editor. 
 
 ## What is missing in this project
-* I would have liked to add an functionnality where the voice assistant can read the title of the news but it's would be working only with the primary page of the pagination I didn't have the time to find an way to do it with the other pages so i decided to let it.
-npm
+* I would have liked to add an functionnality where the voice assistant can read the title of the news but for reasons of time i decided to let it.
+
 ## Launch the project
 * You can take a look on the project [here](https://miciweb.github.io/).
 * Or clone the repository and launch it with the cli command "npm start" (be sure to install the required dependencies with "npm install").
